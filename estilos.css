@@ -255,10 +255,14 @@ ul{
         position: absolute;
         top: 0px;
         left: 0px;
-        background-color: gray;
+        background-color: #201b1b;
         height: 100%;
         transform: translate(-400px);
-        
+        transition: transform 1s ease-in-out;
+    }
+
+    .navegacion-principal ul.menu_navegacion.show{
+        transform: translate(-10px);
     }
     
     .bloque-noticias{
