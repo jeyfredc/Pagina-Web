@@ -261,7 +261,7 @@ ul{
         transition: transform 1s ease-in-out;
     }
 
-    .navegacion-principal ul.menu_navegacion.show{
+    .navegacion-principal ul.menu_navegacion.show {
         transform: translate(-10px);
     }
     
